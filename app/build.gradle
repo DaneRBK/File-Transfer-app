@@ -1,0 +1,21 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "rs.local.fileshare"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "rs.local.fileshare"
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName "0.1.0"
+    }
+}
+
+dependencies {
+    implementation "eu.agno3.jcifs:jcifs-ng:2.1.10"
+    implementation "androidx.core:core:1.13.1"
+}
