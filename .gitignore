@@ -1,0 +1,14 @@
+.gradle/
+.gradle-local/
+build/
+app/build/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+local.properties
+captures/
+*.hprof
+fileshare-*.png
+window.xml
